@@ -74,7 +74,7 @@ src/
 └── index.css               # Where I imported tailwind
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -122,6 +122,5 @@ This is a student assignment project, but feedback and suggestions are welcome!
 - Design inspired by modern e-commerce platforms
 - Icons provided by Lucide React
 
----
 
-**Made with ❤️ using React and Tailwind CSS**
+**Made with  using React and Tailwind CSS**
