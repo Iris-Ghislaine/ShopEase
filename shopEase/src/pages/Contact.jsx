@@ -60,7 +60,6 @@ const Contact = () => {
             Have a question or feedback? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
           </p>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Information */}
           <div>
@@ -80,7 +79,6 @@ const Contact = () => {
               ))}
             </div>
           </div>
-
           {/* Contact Form */}
           <div>
             <h2 className="text-2xl font-bold mb-8 ">Send Us a Message</h2>
@@ -100,7 +98,6 @@ const Contact = () => {
                   placeholder="your names"
                 />
               </div>
-
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-2">
                   Email Address
@@ -116,7 +113,6 @@ const Contact = () => {
                   placeholder="email@example.com"
                 />
               </div>
-
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
                   Message
@@ -132,7 +128,6 @@ const Contact = () => {
                   placeholder="Tell us what's on your mind..."
                 />
               </div>
-
               <button
                 type="submit"
                 className="w-full bg-indigo-500 hover:bg-indigo-700 text-white py-3 rounded-full font-semibold transition-colors items-center"
