@@ -1,6 +1,11 @@
+import HeroSection from "../components/HeroSection"
+
 function Home(){
     return(
-console.log('this is Home')
+        
+<HeroSection />
+        
     )
+
 }
 export default Home
