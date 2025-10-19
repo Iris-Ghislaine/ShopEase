@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-sm text-gray-500 max-w-xs mx-auto md:mx-0">
-              Your one-stop shop for quality products at amazing prices.
+              Your one-stop shop for <br /> quality products at amazing prices.
             </p>
           </div>
           {/* Quick Links */}
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border mt-8 pt-8 text-center text-sm text-indigo-500">
+        <div className="border-t  mt-8 pt-8 text-center  text-indigo-500">
           <p>&copy; 2025 𝐒hopease. All rights reserved.</p>
         </div>
       </div>
