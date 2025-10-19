@@ -31,7 +31,7 @@ const ProductCard = ({ image, name, price }) => {
           
           <button
             onClick={handleAddToCart}
-            className="bg-indigo-500 hover:bg-indigo-400  px-4 py-2 rounded-lg font-medium flex items-center space-x-2 transition-colors"
+            className="bg-indigo-500 hover:bg-indigo-700  px-4 py-2 rounded-lg font-medium flex items-center space-x-2 transition-colors"
           >
             <ShoppingCart className="h-4 w-4 text-white" />
             <span className="text-white">Add</span>
