@@ -1,6 +1,6 @@
 import { ShoppingCart } from "lucide-react";
 
-const ProductCard = ({ image, name, price, category }) => {
+const ProductCard = ({ image, name, price }) => {
   const handleAddToCart = () => {
     console.log(`Added ${name} to cart`);
     alert(`${name} has been added to your cart!`);
@@ -14,11 +14,11 @@ const ProductCard = ({ image, name, price, category }) => {
           alt={name}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
         />
-        {category && (
+        {/* {category && (
           <span className="absolute top-3 left-3 bg-indigo-500 text-indigo-500-foreground text-xs font-semibold px-3 py-1 rounded-full">
             {category}
           </span>
-        )}
+        )} */}
       </div>
       
       <div className="p-5">
