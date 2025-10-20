@@ -5,14 +5,14 @@ import ProductCard from "../components/ProductCard";
 const Products = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const data =[
-  { id: 1, name: 'mac book', price: 999, image: 'src/assets/macbook.jpg', category: 'Electronics' },
-  { id: 2, name: 'Wireless Headphones', price: 149, image: 'src/assets/officialheadset.jpg', category: 'Electronics' },
-  { id: 3, name: 'samsung S25', price: 799, image: 'src/assets/samsung.jpg', category: 'Electronics' },
-  { id: 4, name: 'Cotton Shirt', price: 29, image: 'src/assets/realtshirts.jpg', category: 'Fashion' },
-  { id: 5, name: 'Slim Jeans', price: 59, image: 'src/assets/slimjeans.jpg', category: 'Fashion' },
-  { id: 6, name: 'Summer Outfit', price: 45, image: 'src/assets/dress.jpg', category: 'Fashion' },
-  { id: 7, name: ' Watch', price: 199, image: 'src/assets/watch2.jpg', category: 'Accessories' },
-  { id: 8, name: 'earings', price: 10, image: 'src/assets/earings.jpg', category: 'Accessories' },
+  { id: 1, name: 'mac book', price: 999, image: 'assets/macbook.jpg', category: 'Electronics' },
+  { id: 2, name: 'Wireless Headphones', price: 149, image: 'assets/officialheadset.jpg', category: 'Electronics' },
+  { id: 3, name: 'samsung S25', price: 799, image: 'assets/samsung.jpg', category: 'Electronics' },
+  { id: 4, name: 'Cotton Shirt', price: 29, image: 'assets/realtshirts.jpg', category: 'Fashion' },
+  { id: 5, name: 'Slim Jeans', price: 59, image: 'assets/slimjeans.jpg', category: 'Fashion' },
+  { id: 6, name: 'Summer Outfit', price: 45, image: 'assets/dress.jpg', category: 'Fashion' },
+  { id: 7, name: ' Watch', price: 199, image: 'assets/watch2.jpg', category: 'Accessories' },
+  { id: 8, name: 'earings', price: 10, image: 'assets/earings.jpg', category: 'Accessories' },
 ];
   
   // for getting category per category
