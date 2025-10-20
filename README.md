@@ -111,7 +111,7 @@ npm run dev
 
 ## Deployment
 
-**Live Demo**:
+**Live Demo**: https://ecommerceshopease.netlify.app/
 
 
 ## Contributing
