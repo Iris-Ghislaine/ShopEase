@@ -4,7 +4,7 @@ import ProductCard from "../components/ProductCard";
 
 const Home = () => {
     const featuredProducts = [
-  { id: 1, name: 'mac book', price: 999, image: '../assets/macbook.jpg', category: 'Electronics' },
+  { id: 1, name: 'mac book', price: 999, image: './src/assets/macbook.jpg', category: 'Electronics' },
   { id: 2, name: 'Wireless Headphones', price: 149, image: 'src/assets/officialheadset.jpg', category: 'Electronics' },
   { id: 3, name: 'samsung S25', price: 799, image: 'src/assets/samsung.jpg', category: 'Electronics' },
   { id: 4, name: 'Cotton Shirt', price: 29, image: 'src/assets/realtshirts.jpg', category: 'Fashion' },
