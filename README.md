@@ -28,6 +28,7 @@ A modern, responsive e-commerce website built with React and Tailwind CSS. This 
    - All products organized by category
    - Product cards with images, names, prices
    - "Add to Cart" functionality with alerts
+
     <img width="1885" height="886" alt="image" src="https://github.com/user-attachments/assets/2436921c-e9d9-448e-8232-5f2c57bb0838" />
     <img width="1915" height="880" alt="image" src="https://github.com/user-attachments/assets/c7ce62c9-e829-4cb2-952c-22eee07a59d7" />
     <img width="1882" height="849" alt="image" src="https://github.com/user-attachments/assets/66b1d7e9-0861-4bbe-831f-7d5f358cd1ff" />
@@ -36,6 +37,7 @@ A modern, responsive e-commerce website built with React and Tailwind CSS. This 
    - Company story and mission
    - "Why Choose Us" section with 4 key points
    - Visually appealing layout
+
   <img width="1905" height="870" alt="image" src="https://github.com/user-attachments/assets/72469700-8b56-4b7c-9beb-5bec5eaba563" />
   <img width="1884" height="879" alt="image" src="https://github.com/user-attachments/assets/bd5462aa-4bb4-44b5-bcba-3c2066ea7180" />
 
@@ -44,6 +46,7 @@ A modern, responsive e-commerce website built with React and Tailwind CSS. This 
    - Contact information (email, phone, address, hours)
    - Feedback form with name, email, and message fields
    - Form submission with console logging
+   
 <img width="1876" height="892" alt="image" src="https://github.com/user-attachments/assets/4c5dc454-338a-4b83-9177-3d0a2a7bf2a0" />
 
 ## 🛠️ Technologies Used
