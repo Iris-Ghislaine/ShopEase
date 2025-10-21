@@ -65,7 +65,7 @@ const About = () => {
             {reasons.map((reason, index) => (
               <div 
                 key={index}
-                className="bg-white rounded-xl p-6 shadow-lg transition-all"
+                className="bg-white rounded-xl p-6 shadow-lg"
               >
                 <div className="bg-indigo-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                   <reason.icon className="h-6 w-6 text-indigo-500" />

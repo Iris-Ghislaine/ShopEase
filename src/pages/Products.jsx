@@ -43,7 +43,7 @@ const Products = () => {
               className={`px-6 py-3 rounded-lg font-semibold transition-all ${
                 selectedCategory === category
                   ? "bg-indigo-500 text-white shadow-lg scale-105"
-                  : "bg-muted text-foreground hover:bg-primary/10 hover:scale-105"
+                  : "bg-gray-100 gray-500 hover:bg-indigo-50 hover:scale-105"
               }`}
             >
               {category}
@@ -56,12 +56,12 @@ const Products = () => {
           <h2 className="text-2xl md:text-3xl font-bold mb-2">
             {selectedCategory === "All" ? "All Products" : selectedCategory}
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-gray-500">
             Showing {filteredProducts.length} {filteredProducts.length === 1 ? "product" : "products"}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProducts.map((product) => (
             <ProductCard key={product.id} {...product} />
           ))}

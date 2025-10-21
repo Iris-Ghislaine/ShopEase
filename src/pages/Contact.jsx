@@ -17,10 +17,21 @@ const Contact = () => {
   };
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    const fieldName = e.target.name;   // Which field is being changed
+    const fieldValue = e.target.value; // What is the new value
+
+    // Copy the current form data
+    const updatedFormData = {
+      name: formData.name,
+      email: formData.email,
+      message: formData.message
+    };
+
+    // Update the specific field
+    updatedFormData[fieldName] = fieldValue;
+
+    // Update state
+    setFormData(updatedFormData);
   };
 
   const contactInfo = [
@@ -94,7 +105,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-none focus:ring-1 focus:ring-indigo-500  transition-shadow"
+                  className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-shadow"
                   placeholder="your names"
                 />
               </div>
@@ -124,7 +135,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 rounded-lg border border-input  focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-shadow resize-none"
+                  className="w-full px-4 py-3 rounded-lg border border-input focus:outline-none focus:ring-1 focus:ring-indigo-500 transition-shadow resize-none"
                   placeholder="Tell us what's on your mind..."
                 />
               </div>
